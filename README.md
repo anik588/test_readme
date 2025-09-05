@@ -52,16 +52,16 @@
 
 ### 📈 GitHub Stats & Activity
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Shuvashish33-lab&show_icons=true&theme=radical&hide_border=true&custom_title=My%20GitHub%20Stats" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=Shuvashish33-lab&theme=radical&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Shuvashish33&show_icons=true&theme=radical&hide_border=true&custom_title=My%20GitHub%20Stats" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=Shuvashish33&theme=radical&hide_border=true" />
 </p>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shuvashish33-lab&layout=compact&theme=radical&hide_border=true&hide=Makefile,Batchfile&langs_count=8&custom_title=Top%20Languages%20Used" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shuvashish33&layout=compact&theme=radical&hide_border=true&hide=Makefile,Batchfile&langs_count=8&custom_title=Top%20Languages%20Used" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shuvashish33-lab&theme=react-dark&hide_border=true&area=true&color=00ffee&point=ffffff&line=00ffee&custom_title=My%20Activity%20Graph" alt="GitHub Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shuvashish33&theme=react-dark&hide_border=true&area=true&color=00ffee&point=ffffff&line=00ffee&custom_title=My%20Activity%20Graph" alt="GitHub Contribution Graph" />
 </p>
 
 ---
