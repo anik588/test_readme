@@ -71,9 +71,9 @@
   <tr>
     <td width="140" align="center">
       <!-- FB profile pic (must be public) -->
-     <!--   <a href="https://facebook.com/shodip.sharma">
+       <a href="https://facebook.com/shodip.sharma">
         <img src="https://graph.facebook.com/shodip.sharma/picture?type=large" alt="Facebook Photo" width="120" />
-      </a> -->
+      </a> 
       <div><a href="https://facebook.com/shodip.sharma">Facebook</a></div>
     </td>
     <td>
