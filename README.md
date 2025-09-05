@@ -32,7 +32,7 @@
     <img src="https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white" alt="C++"/>
     <img src="https://img.shields.io/badge/Computational%20Physics-444444" alt="Computational Physics"/>
     <img src="https://img.shields.io/badge/Data%20Science-1F6FEB" alt="Data Science"/>
-    <img src="https://img.shields.io/badge/Machine%20Learning-F88900" alt="Machine Learning"/>
+    <img src="https://img.shields.io/badge/Machine%20Learning-F88900" alt="Machine Learning"/> <br>
     <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" alt="NumPy"/>
     <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" alt="Pandas"/>
     <img src="https://img.shields.io/badge/Matplotlib-11557C?logo=matplotlib&logoColor=white" alt="Matplotlib"/>
