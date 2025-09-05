@@ -1,88 +1,89 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Shuvashish | Profile</title>
-<style>
-  :root{
-    --fg:#fff; --accent:#58a6ff;
-    --icon:clamp(56px,8vw,92px);
-  }
-  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:#0d1117;color:var(--fg)}
-  .hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:clamp(16px,4vw,40px)}
-  .hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1;filter:brightness(.35)}
-  .card{width:min(100%,1000px);background:rgba(13,17,23,.55);border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(8px);border-radius:16px;padding:clamp(16px,4vw,40px);box-shadow:0 10px 30px rgba(0,0,0,.3)}
-  h1{margin:0 0 6px;font-size:clamp(26px,5vw,42px)}
-  .lead{margin:6px 0 18px;font-size:clamp(14px,3vw,18px)}
-  .links{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:10px 0 18px}
-  .pill{display:inline-flex;gap:8px;align-items:center;padding:8px 12px;border:1px solid rgba(255,255,255,.12);border-radius:999px;background:rgba(255,255,255,.06)}
-  a{color:var(--accent);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .icons{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin:18px 0 6px}
-  .icons img{width:var(--icon);height:var(--icon)}
-  .fb{display:flex;gap:14px;justify-content:center;align-items:center;flex-wrap:wrap;margin-top:18px}
-  .fb img{width:120px;border-radius:50%;border:1px solid rgba(255,255,255,.12)}
-  @media (prefers-reduced-motion: reduce){ .hero video{display:none} }
-</style>
-</head>
-<body>
-  <section class="hero">
-    <!-- ✅ Whole-div video background -->
-    <video autoplay muted loop playsinline preload="auto" poster="">
-      <source src="https://res.cloudinary.com/dl4lfh8em/video/upload/v1757064721/shuvasis_nlh2io.mp4" type="video/mp4">
-    </video>
+<!-- 🔭 Hero video (README can't use bg-video CSS; this is the closest) -->
+<p align="center">
+  <video
+    src="https://res.cloudinary.com/dl4lfh8em/video/upload/v1757064721/shuvasis_nlh2io.mp4"
+    autoplay
+    muted
+    loop
+    playsinline
+    width="100%">
+  </video>
+</p>
 
-    <div class="card">
-      <!-- Typing headline -->
-      <p style="margin:0 0 8px">
-        <a href="https://git.io/typing-svg">
-          <img
-            src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2200&pause=500&color=FFFFFF&center=true&vCenter=true&repeat=true&width=900&background=00000000&lines=Hi%20%F0%9F%91%8B;I'm%20Shuvashish%20Sharma;Undergraduate%20Physics%20Student;Computational%20Physics%20Enthusiast;Data%20Science%20%26%20Machine%20Learning"
-            alt="Typing"
-          />
-        </a>
-      </p>
-      <p class="lead">Dhaka, Bangladesh • I explain physics simply and love data-driven research.</p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=3000&pause=1000&color=4169E1&background=ffffff&center=true&vCenter=true&width=720&lines=Hi+there+👋,+I'm+Shuvashish+Sharma;Undergraduate+Physics+Student;Computational+Physics+%7C+Data+Science+%26+ML;Python%2C+C%2FC%2B%2B%2C+NumPy%2C+Pandas%2C+Matplotlib%2C+sklearn%2C+Jupyter%2C+MATLAB" alt="Typing SVG" />
+</p>
 
-      <div class="links">
-        <span class="pill">Latest push <img alt="last commit" src="https://img.shields.io/github/last-commit/Shuvashish33-lab/Shuvashish33-lab?logo=github&label=&color=white&labelColor=000000&logoColor=white"></span>
-        <a class="pill" href="https://github.com/Shuvashish33-lab" target="_blank" rel="noopener">GitHub</a>
-        <a class="pill" href="https://www.linkedin.com/in/shuvashish-sharma-a95b27199" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="pill" href="mailto:shuvashish33@gmail.com">Email</a>
-      </div>
+---
 
-      <!-- Big skills (Devicon) -->
-      <div class="icons" aria-label="Skills">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt="scikit-learn"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" alt="LaTeX"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"/>
-      </div>
+### 🚀 About Me
+- 🎓 Undergrad **Physics student** (Dhaka, Bangladesh)  
+- 🧠 Love **Computational Physics**, **Data Science**, **Machine Learning**  
+- 🛠️ I enjoy building data-driven models & clear explanations of physics concepts  
+- 📫 Reach me: [Facebook](https://facebook.com/shodip.sharma) • [LinkedIn](https://www.linkedin.com/in/shuvashish-sharma-a95b27199)
 
-      <!-- FB widget (image + text) -->
-      <div class="fb">
-        <a href="https://facebook.com/shodip.sharma" target="_blank" rel="noopener">
-          <img src="https://graph.facebook.com/shodip.sharma/picture?type=large" alt="Facebook Photo"/>
-        </a>
-        <div style="text-align:left;max-width:520px">
-          <strong>Name:</strong> Shuvashish Sharma<br/>
-          <strong>Profile:</strong> <a href="https://facebook.com/shodip.sharma">facebook.com/shodip.sharma</a><br/>
-          <strong>Open to:</strong> Research collabs & open-source work
-        </div>
-      </div>
-    </div>
-  </section>
-</body>
-</html>
+---
+
+### 🧰 Technologies & Tools (big real icons)
+<p align="center">
+  <!-- Core -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="72" alt="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="72" alt="C" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="72" alt="C++" />
+  <!-- Sci/DS -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="72" alt="NumPy" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="72" alt="Pandas" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" height="72" alt="Matplotlib" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" height="72" alt="scikit-learn" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="72" alt="Jupyter" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" height="72" alt="MATLAB" />
+</p>
+
+<p align="center">
+  <!-- Extras (optional) -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="64" alt="Git" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="64" alt="GitHub" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="64" alt="Linux" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" height="64" alt="LaTeX" />
+  <!-- Add more if you want: pytorch, tensorflow, vscode, etc. -->
+</p>
+
+---
+
+### 📈 GitHub Stats & Activity
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Shuvashish33-lab&show_icons=true&theme=radical&hide_border=true&custom_title=My%20GitHub%20Stats" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=Shuvashish33-lab&theme=radical&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shuvashish33-lab&layout=compact&theme=radical&hide_border=true&hide=Makefile,Batchfile&langs_count=8&custom_title=Top%20Languages%20Used" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shuvashish33-lab&theme=react-dark&hide_border=true&area=true&color=00ffee&point=ffffff&line=00ffee&custom_title=My%20Activity%20Graph" alt="GitHub Contribution Graph" />
+</p>
+
+---
+
+### 👥 Facebook
+<table>
+  <tr>
+    <td width="140" align="center">
+      <!-- FB profile pic (must be public) -->
+      <a href="https://facebook.com/shodip.sharma">
+        <img src="https://graph.facebook.com/shodip.sharma/picture?type=large" alt="Facebook Photo" width="120" />
+      </a>
+      <div><a href="https://facebook.com/shodip.sharma">Facebook</a></div>
+    </td>
+    <td>
+      <strong>Name:</strong> Shuvashish Sharma<br/>
+      <strong>Focus:</strong> Physics × Data Science × ML<br/>
+      <strong>Open to:</strong> Research collaborations & open-source work
+    </td>
+  </tr>
+</table>
+
+---
+
+> ℹ️ GitHub README নিরাপত্তার জন্য CSS/JS ব্লক করে—তাই “পুরো ডিভ/পেজের ব্যাকগ্রাউন্ড ভিডিও” সম্ভব নয়। উপরের **ফুল-উইডথ ভিডিও** হলো README-এর ভেতরে করা যায় এমন সেরা বিকল্প। সত্যিকারের bg-video দরকার হলে GitHub Pages-এ HTML দিয়ে করা যাবে।
